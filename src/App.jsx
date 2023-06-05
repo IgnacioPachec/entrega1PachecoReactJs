@@ -1,6 +1,10 @@
-import Header from "./componentes/header"
-import ItemProductos from "./componentes/productos"
+import NavBar from "./componentes/navBar"
+import Usuarios from "./componentes/Usuario"
+import Cards from "./componentes/cards"
+import ItemListContainer from "./componentes/itemListContainer"
 import "./App.css"
+
+
 
 
 function App() {
@@ -8,8 +12,15 @@ function App() {
 
   return (
     <>
-    <Header/>
-    <ItemProductos mensaje="Hola Soy yo!"/>
+
+    <NavBar/>
+    <ItemListContainer mensaje = "Destacados de la Semana"/>
+
+
+
+    <Cards/>
+
+    <Usuarios nombre = "Ignacio Pacheco" curso = "ReactJS" edad = {21}/>
     </>
   )
 }

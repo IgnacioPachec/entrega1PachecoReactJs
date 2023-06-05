@@ -1,8 +1,6 @@
 
 
-
-
-const Header = () => {
+export const NavBar = () => {
 
     return (
         <header className="header">
@@ -15,8 +13,11 @@ const Header = () => {
                 <a className="header-a" href="">Paginas</a>
                 <a className="header-a" href="">Contacto</a>
             </nav>
+
         </header>
+
     )
+
 }
 
-export default Header
+export default NavBar
