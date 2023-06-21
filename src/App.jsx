@@ -1,27 +1,24 @@
-import NavBar from "./componentes/navBar"
-import Usuarios from "./componentes/Usuario"
-import Cards from "./componentes/cards"
-import ItemListContainer from "./componentes/itemListContainer"
-import "./App.css"
-
-
-
+import Header from "./componentes/Header/Header"
+import ItemListContainer from "./componentes/ItemListContainer/itemListContainer"
+import 'bootstrap/dist/css/bootstrap.min.css'
+import { BrowserRouter, Routes, Route, Navigate } from "react-router-dom"
+import ItemDetailContainer from "./componentes/ItemDetailContainer/ItemDetailContainer"
 
 function App() {
 
-
   return (
-    <>
 
-    <NavBar/>
-    <ItemListContainer mensaje = "Destacados de la Semana"/>
+    <BrowserRouter>
 
-
-
-    <Cards/>
-
-    <Usuarios nombre = "Ignacio Pacheco" curso = "ReactJS" edad = {21}/>
-    </>
+        <Header />
+     
+        <Routes>
+          <Route path="/" element={<ItemListContainer />} />
+          <Route path="/productos/:categoryId" element={<ItemListContainer />} />
+          <Route path="/detail/:itemId" element={<ItemDetailContainer />}/>
+        </Routes>
+    </BrowserRouter>
+   
   )
 }
 

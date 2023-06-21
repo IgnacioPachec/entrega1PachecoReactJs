@@ -1,0 +1,56 @@
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    border: 2px solid #ccc;
+    border-radius: 8px;
+    padding: 5px;
+    background: transparent;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    height: 100%;
+}
+
+.card-image {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+.card-body {
+    text-align: center;
+}
+
+.card-title {
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+
+.card-description {
+    font-size: 14px;
+    color: #666;
+}
+
+.card-price {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.btn {
+    display: inline-block;
+    padding: 8px 16px;
+    font-size: 14px;
+    border-radius: 4px;
+    text-decoration: none;
+    background-color: #007bff;
+    color: #fff;
+}
+
+.btnAgregarCarrito{
+    background: linear-gradient(to right, #02000060, #9900cc6e);
+}
+
+.btn:hover {
+    background-color: #0056b3;
+}

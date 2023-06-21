@@ -1,0 +1,59 @@
+
+[
+    {
+        "id": 1,
+        "nombre": "Remera Blanca",
+        "precio": 11645,
+        "descripcion": "Descripcion de Remera Blanca ",
+        "img": "https://cdn.shopify.com/s/files/1/0517/6282/3347/products/HXIM09525081_3e378821-ea1e-4173-9a05-b152ca6d1015.jpg?v=1630937883",
+        "category": "remeras",
+        "stock": 10
+    },
+    {
+        "id": 2,
+        "nombre": "Remera Negra",
+        "precio": 17672,
+        "descripcion": "Descripcion de Remera Negra",
+        "img": "https://d3ugyf2ht6aenh.cloudfront.net/stores/002/140/898/products/remera-negra-puesta1-31db72ce57958b34ee16511807977199-640-0.png",
+        "category": "remeras",
+        "stock": 40
+    },
+    {
+        "id": 3,
+        "nombre": "Buzo Negro",
+        "precio": 7086,
+        "descripcion": "Descripcion Buzo Negro",
+        "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTC420Iwq-98E0cB0mHEa2M7_eZ8grR0iWuGE3Pxmc2kVLd0rmt-6wkRNdbHyvu3ZRkuNk&usqp=CAU",
+        "category": "buzos",
+        "stock": 27
+    },
+    {
+        "id": 4,
+        "nombre": "Buzo Blanco",
+        "precio": 12706,
+        "descripcion": "Descripcion de Buzo Blanco",
+        "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSl5jBEFxgas5M6I_CKMOonrsx8-4v5_xr5foWgOF_Pwr2IgvQQpluOyzdi-fGJtrEeqDc&usqp=CAU",
+        "category": "buzos",
+        "stock": 8
+    },
+    {
+        "id": 5,
+        "nombre": "Jean Mujer",
+        "precio": 5278,
+        "descripcion": "Descripcion Jean Mujer",
+        "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRtTIhKHwDwtJJeyMFygeiaXQ48eeVnuz65yhZ1a3L6wzAiygVK_7ND0Ss5OAssP7NRSp4&usqp=CAU",
+        "category": "jean",
+        "stock": 5
+    },
+    {
+        "id": 6,
+        "nombre": "Jean Hombre",
+        "precio": 6650,
+        "descripcion": "Descripcion Jean Hombre",
+        "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTg0PnZZMdwTU2XiCOJHlDuNxBPUdy8s4RT0eT3u9VFAv8OQGLig2dbb5q7wT29SO042Dg&usqp=CAU",
+        "category": "jean",
+        "stock": 26
+    }
+]
+
+
