@@ -15,7 +15,7 @@ const ItemListContainer = () => {
 
     const { categoryId } = useParams()
 
-    useEffect(() => {
+    useEffect(() => { 
         setLoading(true)
 
         pedirDatos()

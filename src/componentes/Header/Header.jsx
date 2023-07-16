@@ -1,7 +1,7 @@
 import "../Header/Header.css"
 import logo from '../../assets/icons8-mummy.svg'
 import { Link } from 'react-router-dom'
-
+import CartWidget from "../CartWidget/CartWidget"
 
 const Header = ({variant = false}) => {
 
@@ -17,8 +17,9 @@ const Header = ({variant = false}) => {
                     <Link className="header__link" to="/productos/remeras">Remeras</Link>
                     <Link className="header__link" to="/productos/buzos">Buzos</Link>
                 </nav>
-
-
+                <nav className="CartWidget">
+                <CartWidget />
+                </nav>
             </div>
         </header>
     )

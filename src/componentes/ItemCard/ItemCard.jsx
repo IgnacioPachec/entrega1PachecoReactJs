@@ -3,7 +3,7 @@ import "../ItemCard/ItemCard.css"
 
 
 
-const ItemCard = ({ id, nombre, precio, descripcion, img }) => {
+const ItemCard = ({ id, stock, nombre, precio, descripcion, img }) => {
 
     return (
         <div className='col-3 m-4'>
@@ -12,6 +12,7 @@ const ItemCard = ({ id, nombre, precio, descripcion, img }) => {
                 <img className="card-image" src={img} alt={nombre} />
                 <div className="card-body">
                     <p className="card-description">{descripcion}</p>
+                    {stock <= 10 && <p style={{fontWeight: 700, color: 'red'}}>Quedan sólo {stock} unidades!</p>}
                     <p className="card-price">Precio: ${precio}</p>
                 </div>
                 <Link className="btn btnAgregarCarrito"  to={`/detail/${id}`}> Agregar al Carrito </Link>

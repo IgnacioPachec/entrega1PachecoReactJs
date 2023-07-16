@@ -29,7 +29,11 @@
     justify-content: space-between;
     list-style: none;
     margin-left: 398px;
-    font-size: 20px;
+    font-size: 22px;
+    position: fixed;
+    top: 10px;
+    right: 740px;
+    z-index: 999;
 }
 
 
@@ -43,5 +47,9 @@
 }
 
 .header__link:hover {
-    text-decoration: dashed ;
+    text-decoration: dashed;
+}
+
+.CartWidget{
+    float: left;
 }
