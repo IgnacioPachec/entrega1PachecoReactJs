@@ -45,6 +45,7 @@ const Carts = () => {
                             <h5>Total: ${totalCompra()}</h5>
                             <hr />
                             <button onClick={vaciarCarrito} className="btn btn-danger">Vaciar carrito</button>
+                            <Link className="btn btn-success mx-2" to="/Checkout">Terminar mi compra</Link>
                         </div>
                     </>
             }
